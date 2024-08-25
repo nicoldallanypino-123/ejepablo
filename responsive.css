@@ -1,0 +1,189 @@
+body{
+    background-image: url(img/R.jfif);
+    display: wrap;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.background{
+    background-color: rgb(230, 30, 30);
+}
+
+.border{
+    border: 3px solid rgb(243, 50, 50);
+    
+}
+.header{
+    background-color: rgb(25, 243, 152);
+    display: flex;
+    margin-top: 10%;
+}
+.logo{
+    width: 100%;
+}
+.nombre{
+    width: 100%;
+    
+}
+.menup{
+    width: 100%;
+}
+.registro{
+    width: 100%;
+}
+.buscar{
+    width: 100%;
+}
+.containerh {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 7px solid green;
+}
+.center {
+    justify-content: center;
+    display: flex;
+}
+.img {
+    width: 50%;
+    margin: auto;
+    border: gray;
+}
+
+.main1 {
+    border: 1px solid rgb(236, 226, 226);
+    
+}
+
+
+
+
+
+@media screen and (min-width: 0px) and (max-width: 300px){ 
+    .body{
+        background-color: rgb(255, 234, 0);
+
+    }
+    .containerh{
+        display:list-item;
+    }
+    .buscar {
+        display: none;
+    }
+    .logo{
+        width: 100%;
+    } 
+    .nombre {
+        width: 100%;
+    }
+
+    .menup {
+        width: 100%;
+    }
+
+    .registro {
+        width: 100%;
+    }
+
+    .buscar {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 301px ) and (max-width: 600px){
+    .body{
+        background-color: blue ;
+    }
+    
+    .logo {
+        width: 50%;
+    }
+
+    .nombre {
+        width: 100%;
+    }
+
+    .menup {
+        width: 100%;
+    }
+
+    .registro {
+        width: 50%;
+    }
+
+    .buscar {
+        display: none;
+    }
+
+}
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    .body {
+        background-color: rgb(255, 0, 0);
+    }
+    .logo {
+        width: 30%;
+    }
+
+    .nombre {
+        width: 40%;
+    }
+
+    .menup {
+        width: 30%;
+    }
+
+    .registro {
+        width: 50%;
+    }
+
+    .buscar {
+        width: 50%;
+    }
+}
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+    .body {
+        background-color: rgb(217, 0, 255);
+    }
+    .logo {
+        width: 30%;
+    }
+
+    .nombre {
+        width: 30%;
+    }
+
+    .menup {
+        width: 30%;
+    }
+
+    .registro {
+        width: 10%;
+    }
+
+    .buscar {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 1201px) {
+    .body {
+        background-color: rgb(30, 255, 0);
+    }
+    .logo {
+        width: 10%;
+    }
+
+    .nombre {
+        width: 20%;
+    }
+
+    .menup {
+        width: 40%;
+    }
+
+    .registro {
+        width: 20%;
+    }
+
+    .buscar {
+        width: 10%;
+    }
+}
